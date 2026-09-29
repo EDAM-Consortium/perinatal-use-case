@@ -69,8 +69,8 @@ The EDHS is a nationally representative household survey conducted in 2000, 2005
 **Key variables:** individual-level sociodemographic characteristics, reproductive history, antenatal care, anthropometrics, anaemia, contraception, intimate partner violence (IPV/DV composite), and stillbirth outcomes derived from pregnancy history. Spatial coordinates are GPS cluster-level (DHS-jittered).
 
 **Models:**
-- **Model 1** — binary XGBoost classifier predicting `had_stillbirth` (0/1) across all women. Outcome is rare (~1%); class imbalance handled via `scale_pos_weight` (sqrt of class ratio). 80/20 stratified train/test split, 10-fold stratified cross-validation. Performance reported as AUC-ROC, average precision, sensitivity, specificity, PPV, NPV at a chosen probability threshold.
-- **Model 2** — binary XGBoost classifier predicting late vs early pregnancy loss (≥7 months vs <7 months gestation) among women with a recorded pregnancy loss. Negative finding: timing of pregnancy loss is not predictable from survey-level variables.
+- **Model 2** — binary XGBoost classifier predicting `had_stillbirth` (0/1) across all women. Outcome is rare (~1%); class imbalance handled via `scale_pos_weight` (sqrt of class ratio). 80/20 stratified train/test split, 10-fold stratified cross-validation. Performance reported as AUC-ROC, average precision, sensitivity, specificity, PPV, NPV at a chosen probability threshold.
+- **Model 3** — binary XGBoost classifier predicting late vs early pregnancy loss (≥7 months vs <7 months gestation) among women with a recorded pregnancy loss. Negative finding: timing of pregnancy loss is not predictable from survey-level variables.
 
 **Spatial pipeline:** `build_lookup_tables.R` geocodes each unique GPS cluster to admin1/2/3 via point-in-polygon join (with nearest-polygon fallback for DHS-displaced points within the stated 10 km jitter). `make_spatial_counts.R` aggregates stillbirth counts to admin units for mapping.
 
@@ -82,7 +82,8 @@ The MPDSR dataset captures facility-based maternal and perinatal deaths reported
 
 **Key variables:** cause of death, time of death (ante/intra/postpartum), age, gravidity, parity, ANC visits, haemorrhage indicator, obstructed labour indicator, delay indicators (Delays 1–3), infectious disease comorbidities (malaria, HIV, TB, other), urban/rural residence.
 
-**Model:** binary XGBoost classifier predicting stillbirth vs livebirth outcome among women in the MPDSR who reached labour. 80/20 stratified train/test split, 10-fold stratified cross-validation. SHAP values computed for feature importance (bar, beeswarm, dependence, and waterfall plots).
+**Model:**
+- **Model 1** — binary XGBoost classifier predicting stillbirth vs livebirth outcome among women in the MPDSR who reached labour. 80/20 stratified train/test split, 10-fold stratified cross-validation. SHAP values computed for feature importance (bar, beeswarm, dependence, and waterfall plots).
 
 **Spatial pipeline:** Deaths are mapped to admin1/2/3 via facility name matching. `build_lookup_tables.R` builds the name-to-p-code lookup; `make_spatial_counts.R` produces spatial count layers at all three admin levels.
 
@@ -98,7 +99,7 @@ DHIS2 is Ethiopia's national health management information system. Data were ext
 
 **Pipeline:**
 1. `prelim_explore.R` — reshapes raw DHIS2 long-format exports to wide format, attaches region names, filters to rows with recorded stillbirths, computes predictor missingness, performs high vs low stillbirth mean comparison, replaces NAs with 0, applies log1p transform, and saves `dhis2_stillbirth_clean.csv`.
-2. `explore_dhis2.R` — reads the clean dataset, drops volume markers and redundant variables, fits an XGBoost regression with 10-fold cross-validation, evaluates on a held-out test set (RMSE, R², MAE), and produces SHAP bar, beeswarm, dependence, and waterfall plots.
+2. `explore_dhis2.R` — **Model 4**: reads the clean dataset, drops volume markers and redundant variables, fits an XGBoost regression with 10-fold cross-validation, evaluates on a held-out test set (RMSE, R², MAE), and produces SHAP bar, beeswarm, dependence, and waterfall plots.
 
 **Data window:** May 2010 – September 2018 (trimmed to remove sparse tails).
 
@@ -142,6 +143,22 @@ All stillbirth prediction analyses share a common pipeline:
 5. **SHAP analysis** — feature importance (bar and beeswarm plots), dependence plots for top predictors, waterfall plot for individual predictions
 
 Leakage variables (post-hoc pregnancy loss indicators) were excluded from model predictors. Classification performance is reported as AUC-ROC (primary), average precision, sensitivity, specificity, PPV, and NPV at a chosen operating threshold.
+
+## Model performance
+
+Cross-validated (10-fold) performance for each model.
+
+| Model | Data source | Outcome | N | Predictors | AUC-ROC | Avg precision | Sensitivity | Specificity |
+|---|---|---|---|---|---|---|---|---|
+| 1 | MPDSR | Stillbirth vs livebirth (high-risk population) | 556 births (147 still / 409 live) | 11 | 0.663 | 0.861 | 0.767 | 0.435 |
+| 2 | EDHS | Stillbirth (general population) | 64,401 women (474 stillbirths) | 28 | 0.734 | 0.024 | 0.101 | 0.971 |
+| 3 | EDHS | Stillbirth vs earlier pregnancy loss | 935 women (200 still / 734 loss) | 28 | 0.562 | 0.260 | — | — |
+
+| Model | Data source | Outcome | N | Predictors | CV R² | Test R² | RMSE (log) | MAE (log) |
+|---|---|---|---|---|---|---|---|---|
+| 4 | DHIS2 | log(stillbirths + 1), zone × month | 22,369 zone-months (193 zones) | ~50 | 0.676 | 0.680 | 0.730 | 0.553 |
+
+Models 1–3 are classifiers; Model 4 is a regression, so it is reported with regression metrics. All results are exploratory / hypothesis-generating.
 
 ## Key findings
 
