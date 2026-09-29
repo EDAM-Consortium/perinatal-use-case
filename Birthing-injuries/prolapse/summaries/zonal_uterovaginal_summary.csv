@@ -1,0 +1,151 @@
+org_unit_id,org_unit_name,region_id,region_name,total_cases,annual_avg,n_months_rpt,has_cases
+AG9aCPKDjkC,Buno Bedele Zone,XU2wpLlX4Vk,Oromia,118,29.5,45,TRUE
+B8w6TU5Zeac,West Shewa Zone Health Office,XU2wpLlX4Vk,Oromia,722,180.5,90,TRUE
+BZouPKT5HPQ,West Wollega Zone,XU2wpLlX4Vk,Oromia,156,39,46,TRUE
+BcPCDLI07oH,Debremarkos Town,yb9NKGA8uqt,Amhara,529,132.25,78,TRUE
+BkxXrM55k0V,South Omo Zone,a2QIIR2UXcd,South Ethiopia,0,0,0,FALSE
+Bqq3KNXFksZ,Bole Sub City,yY9BLUUegel,Addis Ababa,51,12.75,36,TRUE
+CGFet8GSCre,Tembaro Special Woreda,tDoLtk2ylu4,Central Ethiopia,714,178.5,56,TRUE
+CWuvD3XhG3v,Tirunesh Beijing Hospital,yY9BLUUegel,Addis Ababa,83,20.75,31,TRUE
+DOLYesRLNoS,Guji Zone,XU2wpLlX4Vk,Oromia,6,1.5,6,TRUE
+DUe9flf6UbD,Aari Zone,a2QIIR2UXcd,South Ethiopia,37,9.25,21,TRUE
+DeRcF32xDs2,Bale Zone,XU2wpLlX4Vk,Oromia,43,10.75,19,TRUE
+E7UCvNIiFg7,Central Sidama Zone,xNUoZIrGKxQ,Sidama,553,138.25,69,TRUE
+ELtBjhnCtvX,Zewditu Memorial General Hospital,yY9BLUUegel,Addis Ababa,441,110.25,102,TRUE
+EUZ2KUsiiLo,St Paulo's  Comprehensive Specialized Hospital,yY9BLUUegel,Addis Ababa,720,180,100,TRUE
+Ehs3CF9et51,Holeta Town,XU2wpLlX4Vk,Oromia,5,1.25,4,TRUE
+EoK5lX2siVg,West Hararge Zone,XU2wpLlX4Vk,Oromia,768,192,107,TRUE
+F73cO8KO9kj,Gondar Town,yb9NKGA8uqt,Amhara,1116,279,111,TRUE
+FWRCbPVr4Nw,Shashemene Town1,XU2wpLlX4Vk,Oromia,281,70.25,65,TRUE
+G6Z6IER3bHK,Debrebirhan Town,yb9NKGA8uqt,Amhara,604,151,100,TRUE
+GZfzYxXRhWU,Gambella General Hospital,moBiwh9h5Ce,Gambella,3,0.75,3,TRUE
+HSBYk4v8ITI,Jugel General Hospital,b9nYedsL8te,Harari,3,0.75,3,TRUE
+HTGMV2949xu,North Shewa Zone,XU2wpLlX4Vk,Oromia,112,28,38,TRUE
+HXgEDvYXyuC,Jimma Town,XU2wpLlX4Vk,Oromia,629,157.25,106,TRUE
+IRwFTUG9H8c,Akaki Kality Sub City,yY9BLUUegel,Addis Ababa,40,10,24,TRUE
+IUfZ3YJUqnv,East Gurage Zone,tDoLtk2ylu4,Central Ethiopia,139,34.75,49,TRUE
+Ir4m5D1YQsb,Wolaita Zone,a2QIIR2UXcd,South Ethiopia,810,202.5,81,TRUE
+JQLksc6ay2S,Moyale Town Health Office,XU2wpLlX4Vk,Oromia,2,0.5,2,TRUE
+JRMjFMEQnKE,Gamo Zone,a2QIIR2UXcd,South Ethiopia,1082,270.5,113,TRUE
+JdAJSy4rp3e,Borena Zone,XU2wpLlX4Vk,Oromia,32,8,18,TRUE
+JgBKioqJo5h,Addis Ketema Sub City,yY9BLUUegel,Addis Ababa,57,14.25,37,TRUE
+Jk5NWM8MHKE,Goro Operational Woreda,G9hDiPNoB7d,Dire Dawa,5,1.25,5,TRUE
+JlI1V06Lk2C,Nogob Zone,PCKGSJoNHXi,Somali,3,0.75,3,TRUE
+JtJpEvHfb2N,Dubti General Hospital,UFtGyqJMEZh,Afar,171,42.75,56,TRUE
+KBfiDXWjETn,Sabiyan General Hospital,G9hDiPNoB7d,Dire Dawa,72,18,44,TRUE
+KLn28g8EG5M,Bench Sheko Zone,HIlnt7Qj8do,South West Ethiopia,32,8,11,TRUE
+KOOk5MScXoZ,Kombolcha Town,yb9NKGA8uqt,Amhara,312,78,67,TRUE
+KPmsSOvSHMJ,South Gondar Zone,yb9NKGA8uqt,Amhara,489,122.25,101,TRUE
+KTQ2XB5n6np,Waghimera Zone,yb9NKGA8uqt,Amhara,112,28,40,TRUE
+KpUJNTcKG9t,South Eastern Zone,Gmw0DJLXGtx,Tigray,4,1,4,TRUE
+LFfHQX4uOhH,West Gondar Zone,yb9NKGA8uqt,Amhara,223,55.75,55,TRUE
+LHmoKu9ErvF,Waliif General Hospital,b9nYedsL8te,Harari,2,0.5,2,TRUE
+LOYTxuwSQku,Ilu Aba Bora Zone,XU2wpLlX4Vk,Oromia,18,4.5,10,TRUE
+M7ufygSuODc,Sodo Town Administration,a2QIIR2UXcd,South Ethiopia,2076,519,70,TRUE
+MRZ6tna98i6,Awi Zone,yb9NKGA8uqt,Amhara,1651,412.75,122,TRUE
+OK5ityZ56Xe,Sitti Zone,PCKGSJoNHXi,Somali,20,5,12,TRUE
+ORllicI4Djm,Gedeo Zone,a2QIIR2UXcd,South Ethiopia,4,1,3,TRUE
+OW1VTIu7eWB,Southern Zone,Gmw0DJLXGtx,Tigray,103,25.75,38,TRUE
+ObyC41kKKb7,North Shewa Zone,yb9NKGA8uqt,Amhara,376,94,92,TRUE
+Olki2VTqlYo,Fafan Zone,PCKGSJoNHXi,Somali,104,26,52,TRUE
+Oyv7rUEVODO,Southern Sidama Zone,xNUoZIrGKxQ,Sidama,206,51.5,59,TRUE
+PQNIosGAJ0a,West Arsi Zone,XU2wpLlX4Vk,Oromia,103,25.75,41,TRUE
+PWEPBCTFiOD,Kaffa Zone,HIlnt7Qj8do,South West Ethiopia,105,26.25,25,TRUE
+QCZEHRJBSLH,North Western Zone,Gmw0DJLXGtx,Tigray,143,35.75,33,TRUE
+QP6pTyHePxw,Horo Guduru Wollega Zone,XU2wpLlX4Vk,Oromia,10,2.5,7,TRUE
+QSKyxvhBqOc,Asela Town,XU2wpLlX4Vk,Oromia,350,87.5,71,TRUE
+Qqlg9Xanj7N,Eastern Sidama Zone,xNUoZIrGKxQ,Sidama,7,1.75,6,TRUE
+R6nsx1xB8wq,Kolfe Subcity,yY9BLUUegel,Addis Ababa,36,9,27,TRUE
+RBoisUoJC2R,West Guji Zone,XU2wpLlX4Vk,Oromia,2,0.5,2,TRUE
+RS3UP5GJUE4,Sendafa Bake Town,XU2wpLlX4Vk,Oromia,14,3.5,7,TRUE
+Rb15RthRp2J,East Gojjam Zone,yb9NKGA8uqt,Amhara,620,155,107,TRUE
+ReqsQEk6CJr,Shagar City,XU2wpLlX4Vk,Oromia,212,53,55,TRUE
+Rj13OIpmkhf,Agaro Town,XU2wpLlX4Vk,Oromia,210,52.5,35,TRUE
+STNMbnQCr0J,Gofa Zone,a2QIIR2UXcd,South Ethiopia,355,88.75,56,TRUE
+TCRufT4JgLZ,Jimma Zone,XU2wpLlX4Vk,Oromia,87,21.75,34,TRUE
+TYR3aVSKY1Y,Hiwot Fana Specialized University Hospital,b9nYedsL8te,Harari,156,39,50,TRUE
+TgD3ZbJrhxD,Metekel Zone,Fccw8uMlJHN,Benishangul-Gumuz,366,91.5,85,TRUE
+U6EEjiVB1df,Adama City Health Office,XU2wpLlX4Vk,Oromia,555,138.75,82,TRUE
+UFY6TdJMIRy,East Hararge Zone,XU2wpLlX4Vk,Oromia,29,7.25,17,TRUE
+UdapVUqZX5c,Kebena Special Woreda,tDoLtk2ylu4,Central Ethiopia,1,0.25,1,TRUE
+V7UlCgfAva2,Silte Zone,tDoLtk2ylu4,Central Ethiopia,1849,462.25,95,TRUE
+WhPahkU8aYa,AmboTown,XU2wpLlX4Vk,Oromia,39,9.75,18,TRUE
+X5H1aXr5EBG,Metu Town Health Office,XU2wpLlX4Vk,Oromia,294,73.5,80,TRUE
+XE04hmJn5V8,Assosa Town,Fccw8uMlJHN,Benishangul-Gumuz,3,0.75,3,TRUE
+XqMQKpJmJyn,Nekemte Town,XU2wpLlX4Vk,Oromia,568,142,94,TRUE
+Y404i4NoTSI,Central Gondar Zone,yb9NKGA8uqt,Amhara,454,113.5,107,TRUE
+YaNacvYzyoZ,East Shewa Zone,XU2wpLlX4Vk,Oromia,136,34,59,TRUE
+YicU6Hpt7wu,West Gojjam Zone,yb9NKGA8uqt,Amhara,468,117,91,TRUE
+Z6v6nzUi2QA,South Wollo Zone,yb9NKGA8uqt,Amhara,341,85.25,91,TRUE
+ZDlhLE4uVcy,Arada Sub-City,yY9BLUUegel,Addis Ababa,66,16.5,29,TRUE
+ZSqD0FXodFQ,Hadiya Zone,tDoLtk2ylu4,Central Ethiopia,789,197.25,85,TRUE
+ZfvhMccMq67,Basketo Zone,a2QIIR2UXcd,South Ethiopia,0,0,0,FALSE
+adZbejN0bEA,Northern Sidama Zone,xNUoZIrGKxQ,Sidama,289,72.25,73,TRUE
+aeTzP0ST2hq,Kirkos Sub City,yY9BLUUegel,Addis Ababa,29,7.25,24,TRUE
+bTnb7n7V0cS,Harar General Hospital,b9nYedsL8te,Harari,32,8,26,TRUE
+cG3anFnMfXS,Gurage Zone,tDoLtk2ylu4,Central Ethiopia,5636,1409,129,TRUE
+cfAFiP3WO4i,Kembata Zone,tDoLtk2ylu4,Central Ethiopia,1583,395.75,67,TRUE
+cmTDCVHTLyt,Maya Town,XU2wpLlX4Vk,Oromia,196,49,42,TRUE
+dEC7FfaJhIZ,Robe Town Zonal Health Department,XU2wpLlX4Vk,Oromia,712,178,89,TRUE
+dMqvmbrO29v,Dollo Zone,PCKGSJoNHXi,Somali,1,0.25,1,TRUE
+fCUQIpaxra5,Yem Zone,tDoLtk2ylu4,Central Ethiopia,1,0.25,1,TRUE
+fP7LbnZr3ef,Gulele Sub City,yY9BLUUegel,Addis Ababa,50,12.5,31,TRUE
+fkeURh0e1MM,Kelem Wellega Zone,XU2wpLlX4Vk,Oromia,98,24.5,29,TRUE
+fqlmSS5roQA,Tikur Anbessa Comprehensive Specialized Hospital,yY9BLUUegel,Addis Ababa,3,0.75,2,TRUE
+g5XQo2fWMaF,Bahir Dar Town,yb9NKGA8uqt,Amhara,2739,684.75,130,TRUE
+gcq8d9uMWcP,Modjo Town Health Office,XU2wpLlX4Vk,Oromia,10,2.5,8,TRUE
+i0d6kuR8ZcF,Bishoftu Town,XU2wpLlX4Vk,Oromia,28,7,24,TRUE
+ikdpY8Z3x6C,Dilchora General Hospital,G9hDiPNoB7d,Dire Dawa,323,80.75,78,TRUE
+j59J2d3Ym3C,Lemi Kura Sub City Health Office,yY9BLUUegel,Addis Ababa,60,15,43,TRUE
+jNuAckEhfXG,East Borena Zone,XU2wpLlX4Vk,Oromia,1,0.25,1,TRUE
+jsVznKDygTL,Assosa Zone,Fccw8uMlJHN,Benishangul-Gumuz,159,39.75,56,TRUE
+jtgQD6rjfw5,Oromia Special Zone,yb9NKGA8uqt,Amhara,353,88.25,57,TRUE
+k0NDQTXTSkD,St. Peter General Hospital,yY9BLUUegel,Addis Ababa,995,248.75,102,TRUE
+kOtubDQr7gE,Eastern Zone,Gmw0DJLXGtx,Tigray,103,25.75,43,TRUE
+lFbvMMGoDSk,Central Zone,Gmw0DJLXGtx,Tigray,1100,275,81,TRUE
+lNdvRK5vV7T,Assayita Primary Hospital,UFtGyqJMEZh,Afar,14,3.5,5,TRUE
+lXx23AvfczW,Afder Zone,PCKGSJoNHXi,Somali,5,1.25,5,TRUE
+lZmcVkvBcRz,Jarar Zone,PCKGSJoNHXi,Somali,61,15.25,20,TRUE
+lfTBaIBwiDL,Dawro Zone,HIlnt7Qj8do,South West Ethiopia,4,1,4,TRUE
+lfyIJG8VQAT,Dagmawi Minilik Comprehensive Specialized Hospital,yY9BLUUegel,Addis Ababa,176,44,66,TRUE
+mEPDsoSlMDl,North Gondar Zone,yb9NKGA8uqt,Amhara,96,24,37,TRUE
+nJyGN1l4fgG,North Gojjam zone,yb9NKGA8uqt,Amhara,246,61.5,74,TRUE
+npZAnAytalD,Woldia Town,yb9NKGA8uqt,Amhara,838,209.5,95,TRUE
+oF3UBEfqeSh,Hawassa City Administration,xNUoZIrGKxQ,Sidama,311,77.75,75,TRUE
+oFolrhMolU8,Dawa Zone,PCKGSJoNHXi,Somali,3,0.75,3,TRUE
+onnWwbKNXUp,Jigjiga University Sultan Sheikh Hasan Yabare Comprhensive Specialized Hospital,PCKGSJoNHXi,Somali,257,64.25,68,TRUE
+opUmHDwZ1cV,Arsi Zone,XU2wpLlX4Vk,Oromia,293,73.25,69,TRUE
+oyl5aa5BEse,Gardula Zone,a2QIIR2UXcd,South Ethiopia,13,3.25,11,TRUE
+rA022ncR9gI,Halaba Zone,tDoLtk2ylu4,Central Ethiopia,134,33.5,26,TRUE
+rGFGUEA0etS,Jinela Woreda,b9nYedsL8te,Harari,4,1,4,TRUE
+rXEEpmCHza5,Liben Zone,PCKGSJoNHXi,Somali,3,0.75,3,TRUE
+rpeXibZMrbh,South West Shewa Zone,XU2wpLlX4Vk,Oromia,514,128.5,105,TRUE
+rvUmlyxbWKv,Legehare Operational Woreda,G9hDiPNoB7d,Dire Dawa,29,7.25,20,TRUE
+se9JoDgoPGJ,Gandhi Maternal And Child Health Specialty Center,yY9BLUUegel,Addis Ababa,114,28.5,31,TRUE
+sjJHTs0AZ2v,Eka Kotebe General Hospital,yY9BLUUegel,Addis Ababa,31,7.75,17,TRUE
+skdxLBIhPUt,Arbaminch Town,a2QIIR2UXcd,South Ethiopia,1,0.25,1,TRUE
+smjdej6f9a2,Nifas Silk Lafto Sub City,yY9BLUUegel,Addis Ababa,21,5.25,18,TRUE
+t2ZTjY33nql,Majang Zone,moBiwh9h5Ce,Gambella,1,0.25,1,TRUE
+t5HM1XXcZXC,Woliso Town,XU2wpLlX4Vk,Oromia,78,19.5,29,TRUE
+tJeSvHlEK5h,Debretabor Town,yb9NKGA8uqt,Amhara,708,177,95,TRUE
+tUdA39IsGyN,Dilla Town Administration,a2QIIR2UXcd,South Ethiopia,206,51.5,66,TRUE
+uCFOuyEXbZM,Dessie Town Zone,yb9NKGA8uqt,Amhara,1730,432.5,121,TRUE
+uJdtdQAKj8G,Chifra Primary Hospital,UFtGyqJMEZh,Afar,1,0.25,1,TRUE
+uPpuXFZRN3x,Abala Primary Hospital,UFtGyqJMEZh,Afar,8,2,6,TRUE
+veWjz5L6CYU,Lideta Sub City,yY9BLUUegel,Addis Ababa,19,4.75,15,TRUE
+velyLjaLLXX,Dodola Town,XU2wpLlX4Vk,Oromia,40,10,21,TRUE
+vg3Tn9x2w6p,Mohammed Akle Memorial General Hospital,UFtGyqJMEZh,Afar,46,11.5,30,TRUE
+wU7mJuDLHf7,Sheno Town,XU2wpLlX4Vk,Oromia,9,2.25,8,TRUE
+wjqYDrPzbCd,Gendekore Operational Woreda,G9hDiPNoB7d,Dire Dawa,25,6.25,21,TRUE
+wnMhn0qfylr,East Wellega Zone,XU2wpLlX4Vk,Oromia,606,151.5,88,TRUE
+x9l5eYnBnxl,North Wollo Zone,yb9NKGA8uqt,Amhara,50,12.5,30,TRUE
+xkT42JvQuNR,Yekatit 12 General Hospital Medical College,yY9BLUUegel,Addis Ababa,120,30,54,TRUE
+xpaR6AFzALJ,Batu Town,XU2wpLlX4Vk,Oromia,17,4.25,7,TRUE
+y5Wg5rqVqVw,Yeka Sub City,yY9BLUUegel,Addis Ababa,28,7,24,TRUE
+y8SN9S3PRMR,Konso Zone,a2QIIR2UXcd,South Ethiopia,12,3,6,TRUE
+yBJAyhlL7wY,Sheka Zone,HIlnt7Qj8do,South West Ethiopia,120,30,36,TRUE
+ytUFaJlj0uT,Jeldessa Operational Woreda,G9hDiPNoB7d,Dire Dawa,2,0.5,2,TRUE
+yvg3cBW0CMH,East Bale Zone,XU2wpLlX4Vk,Oromia,87,21.75,39,TRUE
+z9w7nqA4Iq2,Mekelle Zone,Gmw0DJLXGtx,Tigray,389,97.25,58,TRUE
+zd85WxRf7jf,Ras Desta Damitew General Hospital,yY9BLUUegel,Addis Ababa,484,121,88,TRUE
+zmsFgTAIHhp,Konta Zone,HIlnt7Qj8do,South West Ethiopia,6,1.5,6,TRUE

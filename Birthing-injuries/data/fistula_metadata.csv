@@ -1,0 +1,42 @@
+type,id,name,short_name,value_type,domain_type,dataset_names,period_types,opening_dates,search_term,data_rows_sample,has_data
+data_element,H9zA4W6ZiEh,ESV-ICD11 DB50.1 - Anal fistula,ESV-ICD11 - DB50.1,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,20389,TRUE
+data_element,psKybBWSFub,ESV-ICD11 DB50 - Fissure or fistula of anal regions,ESV-ICD11 - DB50,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,5681,TRUE
+data_element,LU8tk97O6Xa,ESV-ICD11 GB23.1 - Fissure or fistula of nipple,ESV-ICD11 - GB23.1,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,670,TRUE
+data_element,moNmjofg3G5,ESV-ICD11 GC04.0 - Urethral fistula,ESV-ICD11 - GC04.0,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,1962,TRUE
+data_element,v9mSUyDEc0C,ESV-ICD11 GC04.10 - Vesicovaginal fistula,ESV-ICD11 - GC04.10,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,1095,TRUE
+data_element,DOy8h0cZaIB,ESV-ICD11 GC04.14 - Urethrovaginal fistula,ESV-ICD11 - GC04.14,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,460,TRUE
+data_element,sEvIB4Tto6Y,ESV-ICD11 GC04.16 - Rectovaginal fistula,ESV-ICD11 - GC04.16,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,925,TRUE
+data_element,JVz0MSqef3V,ESV-ICD11 GC04.1 - Fistulae involving female genital tract,ESV-ICD11 - GC04.1,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,449,TRUE
+data_element,LK7x6jncKeB,ESV-ICD11 GC04 - Fistula of the genitourinary tract,ESV-ICD11 - GC04,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,863,TRUE
+data_element,tceDqXFgTgp,ESV-ICD11 GC04.Y - Other specified fistula of the genitourinary tract,ESV-ICD11 - GC04.Y,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,1490,TRUE
+data_element,whxKNekJdzp,ESV-ICD11 LB12.10 - Atresia of oesophagus with oesophagobronchial fistula,ESV-ICD11 - LB12.10,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,89,TRUE
+data_element,WdgPL6bAKS1,ESV-ICD11 LB12.2 - Oesophageal fistula without atresia,ESV-ICD11 - LB12.2,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,729,TRUE
+data_element,EryCnwNZ4vK,ESV-ICD11 LB42.2 - Congenital rectovaginal fistula,ESV-ICD11 - LB42.2,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,76,TRUE
+data_element,SWMX42n9d9Q,K55-870 Fistula (Anal fistula),K55-870 Fistula (Anal fistula),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,6080,TRUE
+data_element,K07gpMNfW0n,K55-871 Fistula (Rectal fistula),K55-871 Fistula (Rectal fistula),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,1764,TRUE
+data_element,MUxQ7Ha5Lie,K55-872 Fistula (Anorectal fistula),K55-872 Fistula (Anorectal fistula),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,1927,TRUE
+data_element,LfkIAhty7hJ,M20-1037 Fistula (Fistula of joint),M20-1037 Fistula (Fistula of joint),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,354,TRUE
+data_element,sRyFDCE2b3P,MAT_Obstetric Fistula Cases by Age,Obstetric Fistula Cases by Age,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,42769,TRUE
+data_element,Rc6kyqCLHUv,MAT_Obstetric Fistula Cases Treated by Age,Obstetric Fistula Cases Treated by Age,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,42764,TRUE
+data_element,ajVgdhDkzVF,N80-1146 Fistulae involving female genital tract,N80-1146 Fistulae involving female genital tract,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,349,TRUE
+data_element,VvrqBHJIIaX,N80-1147 Fistula (Vesicovaginal fistula),N80-1147 Fistula (Vesicovaginal fistula),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,831,TRUE
+data_element,AQPLUYIXYdz,N80-1148 Other female urinary-genital tract fistulae,N80-1148 Other female urinary-genital tract fistul,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,266,TRUE
+data_element,twgrzFD3o23,Q38-1570 Congenital tracheo-oesophageal fistula without atresia,Q38-1570 Congenital tracheo-oesophageal fistula wi,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,fistula,106,TRUE
+data_element,CS2F9PJQDbU,RMNCH - Obstetric fistula care provided,Obstetric fistula care provided,BOOLEAN,AGGREGATE,,,,fistula,4684,TRUE
+data_element,ITsZDYfUc2l,ESV-ICD11 BB62 - Mitral valve prolapse,ESV-ICD11 - BB62,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,546,TRUE
+data_element,oPUwDiz9jAU,ESV-ICD11 DB31.2 - Rectal prolapse,ESV-ICD11 - DB31.2,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,20633,TRUE
+data_element,Nbqk9NOhpw3,ESV-ICD11 DB53 - Anal prolapse,ESV-ICD11 - DB53,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,5602,TRUE
+data_element,w3yjQC21alO,ESV-ICD11 GC40.2 - Prolapse of the vaginal apex,ESV-ICD11 - GC40.2,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,2198,TRUE
+data_element,ykGyWdc6qG2,ESV-ICD11 GC40.3 - Uterovaginal prolapse,ESV-ICD11 - GC40.3,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,14924,TRUE
+data_element,VV6shblSmaH,ESV-ICD11 GC40 - Pelvic organ prolapse,ESV-ICD11 - GC40,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,5125,TRUE
+data_element,XHwXDPH5Nlo,ESV-ICD11 GC71 - Prolapse of vaginal vault after hysterectomy,ESV-ICD11 - GC71,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,951,TRUE
+data_element,cmZDOp42uaF,K55-873 Prolapse (Anal prolapse),K55-873 Prolapse (Anal prolapse),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,2995,TRUE
+data_element,g5chXpY2vYW,K55-874 Prolapse (Rectal prolapse),K55-874 Prolapse (Rectal prolapse),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,6459,TRUE
+data_element,PV3qk3Pq6YT,N80-1137 Prolapse (Female genital prolapse),N80-1137 Prolapse (Female genital prolapse),INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,1228,TRUE
+data_element,zDLxYPAuznf,N80-1140 Incomplete uterovaginal prolapse,N80-1140 Incomplete uterovaginal prolapse,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,1156,TRUE
+data_element,SOSOMiHeA7Z,N80-1141 Complete uterovaginal prolapse,N80-1141 Complete uterovaginal prolapse,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,1181,TRUE
+data_element,tRdrK1aHVMa,N80-1142 Prolapse (Uterovaginal prolapse unspecified),N80-1142 Prolapse (Uterovaginal prolapse unspecifi,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,5096,TRUE
+data_element,ft7Rd4COkkX,N80-1145 Other female genital prolapse,N80-1145 Other female genital prolapse,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,386,TRUE
+data_element,aKcR4pbtypU,O60-1353 cord prolapse (Labour and delivery complicated by prolapse of cord),O60-1353 cord prolapse (Labour and delivery compli,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,701,TRUE
+data_element,hNC9qzgEDa0,P00-1425 Fetus and newborn affected by prolapsed cord,P00-1425 Fetus and newborn affected by prolapsed c,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,prolapse,10,TRUE
+data_element,K0C1CQ8WVJz,ESV-ICD11 LB31.D - Congenital vesico-uretero-renal reflux,ESV-ICD11 - LB31.D,INTEGER_ZERO_OR_POSITIVE,AGGREGATE,,,,vesico,28,TRUE

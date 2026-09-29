@@ -1,0 +1,41 @@
+year,data_element_id,short_name,annual_cases
+2010,PV3qk3Pq6YT,N80-1137 Female genital,229
+2010,cmZDOp42uaF,K55-873 Anal (ICD-10),390
+2010,g5chXpY2vYW,K55-874 Rectal (ICD-10),462
+2011,PV3qk3Pq6YT,N80-1137 Female genital,1215
+2011,cmZDOp42uaF,K55-873 Anal (ICD-10),1171
+2011,g5chXpY2vYW,K55-874 Rectal (ICD-10),1355
+2012,PV3qk3Pq6YT,N80-1137 Female genital,670
+2012,cmZDOp42uaF,K55-873 Anal (ICD-10),1176
+2012,g5chXpY2vYW,K55-874 Rectal (ICD-10),1587
+2013,PV3qk3Pq6YT,N80-1137 Female genital,752
+2013,cmZDOp42uaF,K55-873 Anal (ICD-10),871
+2013,g5chXpY2vYW,K55-874 Rectal (ICD-10),1894
+2014,Nbqk9NOhpw3,DB53 Anal (ICD-11),60
+2014,PV3qk3Pq6YT,N80-1137 Female genital,699
+2014,VV6shblSmaH,GC40 Pelvic organ,42
+2014,cmZDOp42uaF,K55-873 Anal (ICD-10),868
+2014,g5chXpY2vYW,K55-874 Rectal (ICD-10),1524
+2014,oPUwDiz9jAU,DB31.2 Rectal (ICD-11),304
+2014,w3yjQC21alO,GC40.2 Vaginal apex,68
+2014,ykGyWdc6qG2,GC40.3 Uterovaginal,1406
+2015,Nbqk9NOhpw3,DB53 Anal (ICD-11),685
+2015,VV6shblSmaH,GC40 Pelvic organ,950
+2015,oPUwDiz9jAU,DB31.2 Rectal (ICD-11),2633
+2015,w3yjQC21alO,GC40.2 Vaginal apex,850
+2015,ykGyWdc6qG2,GC40.3 Uterovaginal,12317
+2016,Nbqk9NOhpw3,DB53 Anal (ICD-11),737
+2016,VV6shblSmaH,GC40 Pelvic organ,1543
+2016,oPUwDiz9jAU,DB31.2 Rectal (ICD-11),2356
+2016,w3yjQC21alO,GC40.2 Vaginal apex,708
+2016,ykGyWdc6qG2,GC40.3 Uterovaginal,11873
+2017,Nbqk9NOhpw3,DB53 Anal (ICD-11),720
+2017,VV6shblSmaH,GC40 Pelvic organ,1734
+2017,oPUwDiz9jAU,DB31.2 Rectal (ICD-11),2831
+2017,w3yjQC21alO,GC40.2 Vaginal apex,906
+2017,ykGyWdc6qG2,GC40.3 Uterovaginal,13732
+2018,Nbqk9NOhpw3,DB53 Anal (ICD-11),588
+2018,VV6shblSmaH,GC40 Pelvic organ,1943
+2018,oPUwDiz9jAU,DB31.2 Rectal (ICD-11),2202
+2018,w3yjQC21alO,GC40.2 Vaginal apex,895
+2018,ykGyWdc6qG2,GC40.3 Uterovaginal,8746
