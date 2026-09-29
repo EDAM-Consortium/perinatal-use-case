@@ -1,0 +1,53 @@
+feature,mean_shap
+LBW / premature (KMC),0.6412981511479561
+Teen pregnancy (positive count),0.1955012094515618
+Syphilis treated,0.0963939177865787
+UTI in pregnancy,0.07281504682728657
+ANC 4+ coverage (%),0.06931774723266647
+PPH,0.05991321769565069
+Pre-eclampsia (ICD-11),0.05678648992706082
+Severe pre-eclampsia,0.0424765807584651
+Antepartum haemorrhage (ICD-11),0.019951815123216962
+Preterm newborn,0.01842020325826818
+Twin pregnancy (ICD-10),0.016356835148863245
+PROM,0.015049394254918285
+Obstetric fistula cases,0.012593383347926755
+Pyelonephritis in pregnancy,0.012268409678516725
+Malnutrition (ICD-11),0.008618924764903037
+Anaemia in pregnancy,0.007505245538331335
+Genitourinary infection,0.007440048977413676
+Unspecified hypertension,0.004720029520612286
+Pre-existing hypertension,0.004611416080213722
+Amniotic fluid disorders,0.0044842410863810064
+Low birth weight,0.0037729965960862847
+Eclampsia,0.003510394528612219
+Breech presentation,0.0033192124199098528
+Obstructed labour (pelvic),0.003119024917867732
+Cord complications (ICD-11),0.002709593187109255
+Fetal distress (ICD-11),0.0026428269313902137
+Cervical incompetence,0.0018570870286415489
+Transverse / oblique lie,0.001691694852799585
+Polyhydramnios,0.0016894370078842141
+Meconium in liquor,0.0015005419417259754
+Low weight gain (ICD-11),0.0014634229269543098
+Poor obstetric history,0.001444727422543556
+Prolonged 1st stage (ICD-11),0.001408910748274743
+Syphilis complicating pregnancy,0.0012205408737313893
+Post-term pregnancy,0.0011794908762397351
+High risk pregnancy supervision,0.0010216517521980067
+Placenta praevia (with haem.),9.013771352544817e-4
+Placenta praevia (no haem.),7.497507714023718e-4
+Grand multiparity,6.424373548982624e-4
+Uterine rupture during (ICD-11),6.198733144061562e-4
+Prolonged 2nd stage (ICD-11),5.864406414429289e-4
+Obstetric fistula treated,4.98295762777391e-4
+HIV complicating pregnancy,4.5719027373883396e-4
+Cord prolapse,3.1762290070067484e-4
+Gestational diabetes,2.714302310596346e-4
+Slow fetal growth (newborn),2.407196954503904e-4
+Rhesus isoimmunisation,7.83080419176878e-5
+Intrauterine hypoxia,3.924387108183087e-5
+Elderly primigravida,0
+Poor fetal growth,0
+Fetal hypoxia signs,0
+Intrapartum haemorrhage,0

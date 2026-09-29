@@ -1,0 +1,168 @@
+===== VARIABLE SELECTION LOG =====
+Updated: 2026-06-05
+Context: Ethiopian MoH DHIS2. Variables selected to cover the full range of
+         evidence-based stillbirth risk factors rather than maximising data volume.
+         All IDs confirmed to have data (has_data = TRUE in maternal_metadata.csv).
+
+
+── STILLBIRTH / PERINATAL DEATH OUTCOMES ────────────────────────────────────
+"vqNLnporiZ1"  MAT_Still Births                                 (12688 rows)
+"cFlulEeuKRw"  O30-1291 Intrauterine Fetal Death (IUFD)          (1807 rows)
+"lz1lT9MFQd4"  Z30-1999 Newborn (Single stillbirth)               (75 rows)
+
+── BIRTHS DENOMINATOR ───────────────────────────────────────────────────────
+"weJvzEsHWWX"  Z30-1998 Newborn (Single live birth)
+
+── MATERNAL AGE ─────────────────────────────────────────────────────────────
+Age is a key risk factor at both extremes (teenage and advanced maternal age).
+"lotDArt3TsU"  MAT_ANC 1st by Maternal Age        (37878 rows — age breakdown)
+"dCyyyAiuofb"  MAT_ANC >= 4 by Maternal Age        (37934 rows — age breakdown)
+"oNLXqTifGKY"  MAT_Teenagers Tested Positive for Pregnancy        (24890 rows)
+"mZCqcHS5I0U"  WBP-T% Teenage Pregnancy Rate (aggregated)          (4452 rows)
+
+── PARITY / GRAVIDITY ───────────────────────────────────────────────────────
+Grand multiparity (≥5) and primigravida at extremes both elevate stillbirth risk.
+"JTm0SnNGjms"  Z30-1994 ANC Supervision of elderly primigravida      (38 rows)
+"T5gna2TEX32"  Z30-1993 ANC Supervision of grand multiparity          (24 rows)
+"AxkfDHsp3Fj"  Z30-1991 ANC Supervision of poor reproductive history (119 rows)
+
+── ANC COVERAGE & TIMING ────────────────────────────────────────────────────
+Late or absent ANC is one of the strongest modifiable risk factors.
+"NTidDdqjEde"  MAT_ANC >= 8 Contacts                               (9036 rows)
+"hJGEI95aFvT"  MAT_ANC-1st by Gestational Week                    (27470 rows)
+"cmav5iXqALq"  ANC first visit by gestational week                  (8133 rows)
+"FMHlxx3lBcZ"  MAT_ANC >= 4 by Gestational Week                   (18325 rows)
+"xE0gwDlZgl5"  WBP-T% ANC 1st Contacts before 12 Weeks (aggregate) (4536 rows)
+"zcCEgTBfMIP"  WBP-T% ANC 4+ Contacts Coverage (aggregate)         (4560 rows)
+"hfqUwjltEcp"  WBP-T% ANC 8+ Contacts Coverage (aggregate)         (4548 rows)
+"mzX0cipJBfa"  Z30-1989 ANC Supervision of high-risk pregnancy       (430 rows)
+
+── MATERNAL NUTRITION & MICRONUTRIENTS ──────────────────────────────────────
+Maternal undernutrition and anaemia directly increase placental insufficiency
+and intrauterine growth restriction.
+"y7drS5G9QGT"  NUT_Pregnant Women Received IFA ≥90 days            (37427 rows)
+"XfbcACv3sB8"  NUT_Pregnant Women De-Wormed                        (12401 rows)
+"nYcQoY7Kvda"  FNS_Pregnant women counselled on nutrition at ANC    (2075 rows)
+"BX8jhiWcgHY"  ESV-ICD11 JA64 Malnutrition in pregnancy             (2058 rows)
+"txgF0BhqQsA"  O20-1255 Malnutrition in pregnancy                    (546 rows)
+"Gviy3f6fuSR"  O94-1412 Anaemia complicating pregnancy/puerperium   (1704 rows)
+"CBJVSyU00mz"  ESV-ICD11 JA65.3 Low weight gain in pregnancy         (167 rows)
+"eLRv5LpyuKm"  O20-1258 Low weight gain in pregnancy                  (73 rows)
+
+── HYPERTENSIVE DISORDERS OF PREGNANCY ──────────────────────────────────────
+Hypertension, pre-eclampsia and eclampsia are among the leading direct causes
+of stillbirth through placental abruption and uteroplacental insufficiency.
+"onIgJN7FFUn"  ESV-ICD11 JA24 Pre-eclampsia (broadest code)        (9536 rows)
+"NX3tXatAQBk"  O10-1225 Pre-eclampsia unspecified                   (4110 rows)
+"T269kPxN0G9"  O10-1223 Severe pre-eclampsia                        (2890 rows)
+"il18oInXFKx"  O10-1227 Eclampsia in pregnancy                       (837 rows)
+"wRC6NGAGjTp"  ESV-ICD11 JA21 Pre-eclampsia on chronic hypertension  (906 rows)
+"YBlOR5P2wXY"  O10-1217 Pre-existing hypertension in pregnancy        (561 rows)
+"WERL7LjT4x5"  O10-1230 Unspecified maternal hypertension            (1405 rows)
+
+── DIABETES IN PREGNANCY ────────────────────────────────────────────────────
+Both pre-existing and gestational diabetes increase stillbirth risk (macrosomia,
+placental dysfunction, unexplained late stillbirth).
+"auXHGN5ToAC"  ESV-ICD11 JA63 Diabetes mellitus in pregnancy (all)  (1912 rows)
+"MMO5hO1SGEc"  ESV-ICD11 JA63.2 Gestational diabetes mellitus         (394 rows)
+"q1ruBjp1W86"  O20-1249 Diabetes mellitus in pregnancy                (756 rows)
+
+── INFECTIONS IN PREGNANCY ──────────────────────────────────────────────────
+Syphilis: direct cause of macerated stillbirth.
+UTI/pyelonephritis: linked to preterm birth and fetal loss.
+HIV: associated with placental infection and preterm delivery.
+"kbVb7uFcWuH"  MAT_Pregnant Women Tested for Syphilis              (25184 rows)
+"Q831ZIXPYSX"  MAT_Pregnant Women Treated for Syphilis              (12447 rows)
+"XfkilS4FUL1"  O94-1408 Syphilis complicating pregnancy               (158 rows)
+"rlHrL4d6AN3"  O20-1246 Urinary tract infection in pregnancy          (6202 rows)
+"qgY0HMjUdLG"  O20-1245 Pyelonephritis in pregnancy                  (1855 rows)
+"JBq6A6H5yiu"  ESV-ICD11 JA62 Infections of genitourinary tract      (3278 rows)
+"Uy3sUGYDocU"  O94-1410 HIV disease complicating pregnancy             (145 rows)
+
+── HAEMORRHAGE & PLACENTAL COMPLICATIONS ────────────────────────────────────
+Antepartum haemorrhage (especially abruption and praevia) is a leading proximate
+cause of intrapartum and antepartum stillbirth.
+"hJaDtuUyuAq"  ESV-ICD11 JA41 Antepartum haemorrhage (broad)        (7174 rows)
+"zF8m83W0plG"  O30-1305 Antepartum haemorrhage NEC                   (1524 rows)
+"IEjeuIGU58m"  O30-1303 Placenta praevia with haemorrhage             (438 rows)
+"hM79L2Fffwb"  O30-1302 Placenta praevia without haemorrhage          (198 rows)
+"Wa1XuXurAEh"  O60-1345 Intrapartum haemorrhage                       (278 rows)
+"xOMNqgdHMJq"  MAT_Postpartum Hemorrhage (PPH)                     (17881 rows)
+
+── PREMATURE RUPTURE OF MEMBRANES ───────────────────────────────────────────
+PROM/PPROM increases risk of cord prolapse, infection and preterm birth.
+"qx7r284km0B"  ESV-ICD11 JA89 Maternal care for PROM                (3684 rows)
+
+── PROLONGED / COMPLICATED LABOUR (BIRTH TRAUMA) ────────────────────────────
+Prolonged labour causes fetal hypoxia; obstructed labour and uterine rupture
+are major causes of intrapartum stillbirth in low-resource settings.
+"KZeJvQis9Ng"  ESV-ICD11 JB03.0 Prolonged first stage of labour     (2410 rows)
+"pc1rrYIDEZX"  ESV-ICD11 JB03.1 Prolonged second stage of labour    (1686 rows)
+"zgTTh8iGsQP"  O60-1325 Prolonged first stage of labour             (1236 rows)
+"et6xmt51VFr"  O60-1326 Prolonged second stage of labour              (828 rows)
+"eSvo4q5gSO5"  ESV-ICD11 JB05 Obstructed labour: pelvic abnormality (1518 rows)
+"uAyi1noyZWZ"  ESV-ICD11 JB04 Obstructed labour: malposition/malpresentation (2960 rows)
+"FsCxrT3WGTz"  O60-1343 Obstructed labour unspecified                 (336 rows)
+"G8BtoAHKUI6"  ESV-ICD11 JB0A.1 Rupture of uterus during labour     (1497 rows)
+"o0VKXcMiHAd"  O60-1356 Uterine rupture during labour                 (934 rows)
+"dQ9ZONjeTuz"  O60-1355 Uterine rupture before onset of labour        (564 rows)
+
+── FETAL DISTRESS & ASPHYXIA ────────────────────────────────────────────────
+"PG2RQZtyZv9"  ESV-ICD11 JB07 Labour complicated by fetal distress  (3368 rows)
+"VT49tM7NMm0"  O60-1346 Labour complicated by fetal stress/distress  (1225 rows)
+"Z37i0wwAvjH"  O60-1348 Labour complicated by meconium in liquor      (364 rows)
+"KSrBwgS4DQC"  P20-1466 Intrauterine hypoxia before onset of labour    (73 rows)
+
+── CORD COMPLICATIONS ───────────────────────────────────────────────────────
+"aKcR4pbtypU"  O60-1353 Labour and delivery complicated by cord prolapse (701 rows)
+"LGNOxm3PPDs"  ESV-ICD11 JB08 Labour complicated by cord complications (1027 rows)
+
+── PRETERM BIRTH & LOW BIRTH WEIGHT ─────────────────────────────────────────
+Strong independent risk factors for stillbirth and neonatal death.
+"XpqxTfhsVWL"  ESV-ICD11 JB00 Preterm labour or delivery            (3123 rows)
+"FDTfcU6kqcY"  O60-1311 Preterm labour and delivery                  (1371 rows)
+"vWJ2dJT7AtI"  ESV-ICD11 KA21.4 Preterm newborn                     (6759 rows)
+"HnLMGD0DnU0"  ESV-ICD11 KA21.2 Low birth weight of newborn          (5664 rows)
+"j6GEdB3OXWZ"  CH_Newborns < 2000 g and/or premature with KMC       (12553 rows)
+"m0j9dD48jVP"  O30-1310 Prolonged (post-term) pregnancy              (1450 rows)
+
+── FETAL GROWTH RESTRICTION ────────────────────────────────────────────────
+"Qn9jp4jiZPt"  O30-1292 Maternal care for poor fetal growth           (200 rows)
+"RWulXW939kX"  O30-1290 Maternal care for signs of fetal hypoxia       (122 rows)
+"SH4gkjJ9Xnc"  ESV-ICD11 KA20 Slow fetal growth / fetal malnutrition  (789 rows)
+
+── MULTIPLE GESTATION ───────────────────────────────────────────────────────
+Twins and higher-order multiples carry 3–6× higher stillbirth risk.
+"G2h7hAurvnY"  ESV-ICD11 JA80.0 Twin pregnancy                      (3881 rows)
+"G1Jh6qEesmr"  O30-1273 Twin pregnancy                               (2256 rows)
+"Ccg95wwkP2I"  ESV-ICD11 JA87 Polyhydramnios                         (1873 rows)
+"pMaIDtVcadf"  ESV-ICD11 JA88 Disorders of amniotic fluid/membranes   (753 rows)
+
+── MALPRESENTATION & DYSTOCIA ───────────────────────────────────────────────
+Breech and transverse lie are associated with obstructed labour and birth trauma.
+"yZweNVKF450"  O30-1278 Maternal care for breech presentation        (1162 rows)
+"lH6LbkboZsO"  O30-1279 Maternal care for transverse/oblique lie      (404 rows)
+"yRYcATaIBBZ"  O30-1287 Maternal care for cervical incompetence        (474 rows)
+
+── RHESUS ISOIMMUNISATION ───────────────────────────────────────────────────
+"uYTTNfHAZ18"  O30-1289 Maternal care for rhesus isoimmunisation      (290 rows)
+
+── DELIVERY CARE ────────────────────────────────────────────────────────────
+"lzhOxCHJMOV"  MAT_Skilled Birth Attendance                         (12720 rows)
+"VAwGaDJTcbm"  MAT_Births By Caesarean Section
+
+── OBSTETRIC FISTULA (MARKER OF SEVERE OBSTRUCTED LABOUR) ──────────────────
+"sRyFDCE2b3P"  MAT_Obstetric Fistula Cases by Age                   (42112 rows)
+"Rc6kyqCLHUv"  MAT_Obstetric Fistula Cases Treated by Age           (42104 rows)
+
+── LIFESTYLE / SUBSTANCE USE ────────────────────────────────────────────────
+Alcohol, khat (stimulant widely used in Ethiopia) and tobacco are all linked to
+adverse pregnancy outcomes. Community-level prevalence used as area-level exposure.
+"Qf7iQv49C4C"  WBP-CF Substance use disorder — Alcohol             (12288 rows)
+"vdFj1JNnuJA"  WBP-CF Substance use disorder — Khat (chat)          (9972 rows)
+"oZuiC0yCz8F"  WBP-CF Substance use disorder — Tobacco               (9972 rows)
+"lv3PWuVsAC5"  WBP-T% Treated for Substance Use & Alcohol (aggregate)(4188 rows)
+
+── MATERNAL DEATH (CONTEXTUAL / SEVERITY INDICATOR) ─────────────────────────
+"pj5uAe3P8EM"  MAT_Maternal Deaths in Health Facility              (12543 rows)
+"VbLl2M9cuzV"  MAT_Maternal Deaths in the Community                 (26602 rows)
